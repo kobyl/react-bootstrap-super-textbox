@@ -1,7 +1,7 @@
 import * as React from "react";
 import "../index.css";
 
-export default class PropViewer extends React.Component<any> {
+export class PropViewer extends React.Component<any> {
   render() {
     return (
       <div className="App">
@@ -38,7 +38,7 @@ export default class PropViewer extends React.Component<any> {
     let rendered = keys.map(key => {
       let value = ob[key];
       return (
-        <table>
+        <table key={key + '-table'}>
           <tbody>
             <tr>
               <td className="cell">{key}</td>
