@@ -1,8 +1,8 @@
 {
-  "name": "react-app-n-lib",
+  "name": "react-bootstrap-super-textbox",
   "version": "0.0.1",
   "private": false,
-  "description": "A simple component that visualizes component props.",
+  "description": "A textbox that can act as a drop down list with autocomplete.",
   "main": "dist/exports.js",
   "typings": "dist/exports.d.ts",
   "browser": {

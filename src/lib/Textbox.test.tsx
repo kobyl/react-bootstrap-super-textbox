@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { PropViewer } from './PropViewer';
+import { Textbox } from './Textbox';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<PropViewer test='test 1' />, div);
+  ReactDOM.render(<Textbox name='test' />, div);
   ReactDOM.unmountComponentAtNode(div);
 });

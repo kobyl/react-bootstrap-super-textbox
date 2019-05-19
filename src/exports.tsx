@@ -1,1 +1,1 @@
-export * from "./lib/PropViewer";
+export * from "./lib/Textbox";
