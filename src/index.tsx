@@ -7,4 +7,4 @@ ReactDOM.render(<Textbox name='test' initialValue='pear' values={[
   "apple",
   "some other value",
   "banana"
-]}/>, document.getElementById("root"));
+]} onBlur={e => console.log(e.target.value)}/>, document.getElementById("root"));
